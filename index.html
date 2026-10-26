@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d2b51" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="description" content="Techno Campgain — سامانه طراحی و مدیریت کمپین‌های فروش توسن تکنو" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/app-icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/app-icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Techno Campgain</title>
+</head>
+<body>
+  <div id="splash" class="splash" aria-label="صفحه آغازین">
+    <div class="splash-orb orb-one"></div><div class="splash-orb orb-two"></div>
+    <div class="splash-content">
+      <img class="splash-logo" src="assets/tosan-techno-logo.png" alt="لوگوی توسن تکنو" />
+      <h1 id="splashTitle" class="splash-title">سامانه طراحی و مدیریت کمپین‌های فروش توسن تکنو</h1>
+      <p id="splashSub" class="splash-sub">Techno Campgain</p>
+      <p id="splashCredit" class="splash-credit">طراحی محصول: مهدی نامدار</p>
+      <div id="splashBar" class="splash-bar"><span></span></div>
+    </div>
+    <div class="splash-footer">توسن تکنو <span>•</span> Techno Campgain</div>
+  </div>
+
+  <section id="roleGate" class="role-gate hidden">
+    <div class="gate-brand"><img src="assets/tosan-techno-logo.png" alt="توسن تکنو" /></div>
+    <div class="gate-copy"><span class="eyebrow"><i class="dot"></i> فضای کاری کمپین‌ها</span><h1>به <b>Techno Campgain</b> خوش آمدید</h1><p>برای ادامه، نوع دسترسی خود را انتخاب کنید.</p></div>
+    <div class="role-options">
+      <button class="role-card" data-enter-role="manager">
+        <span class="role-symbol manager-symbol">▦</span><span class="role-text"><b>ورود به پنل مدیریت</b><small>طراحی کمپین، تنظیم پلکان پاداش و پایش شبکه کارگزاران</small></span><span class="role-arrow">←</span>
+      </button>
+      <button class="role-card" data-enter-role="broker">
+        <span class="role-symbol broker-symbol">↗</span><span class="role-text"><b>ورود به پنل کارگزار</b><small>مشاهده سطح فعلی، خط جاری فروش و پاداش قابل‌دستیابی</small></span><span class="role-arrow">←</span>
+      </button>
+    </div>
+    <div class="gate-note"><span class="info-mark">i</span><span>این نسخه برای نمونه‌سازی رابط کاربری است. انتخاب نقش، جایگزین احراز هویت واقعی نیست.</span></div>
+  </section>
+
+  <div id="appShell" class="app-shell hidden">
+    <aside id="sidebar" class="sidebar"></aside>
+    <div class="main-area">
+      <header id="topbar" class="topbar"></header>
+      <main id="mainContent" class="main-content"></main>
+      <footer class="app-footer"><span>Techno Campgain</span><span>توسن تکنو</span></footer>
+    </div>
+  </div>
+
+  <div id="toastRegion" class="toast-region" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

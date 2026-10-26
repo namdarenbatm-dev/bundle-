@@ -1,0 +1,16 @@
+{
+  "name": "Techno Campgain",
+  "short_name": "Campgain",
+  "description": "سامانه طراحی و مدیریت کمپین‌های فروش توسن تکنو",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#0d2b51",
+  "icons": [
+    { "src": "assets/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
